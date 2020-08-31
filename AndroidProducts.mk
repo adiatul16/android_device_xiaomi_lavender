@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# Inherit Redmi Note 7 Carbon device config
+# Inherit Redmi Note 7 Havoc device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_lavender.mk
+    $(LOCAL_DIR)/havoc_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_lavender-eng \
-    carbon_lavender-userdebug \
-    carbon_lavender-user
+    havoc_lavender-eng \
+    havoc_lavender-userdebug \
+    havoc_lavender-user
