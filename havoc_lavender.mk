@@ -32,6 +32,10 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
+# GAPPS
+export WITH_GAPPS=true
+export TARGET_GAPPS_ARCH=arm64
+
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
         TARGET_DEVICE="lavender" \
